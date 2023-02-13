@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+h5{
+    font-size: 1.15rem;
+}
+
+h6{
+    font-size: 1.05rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(10, 18, 29);
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column-1{
+    width: 100%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3{
+    width: 33.33%;
+    float: left;
+}
+
+.column-4{
+    width: 25%;
+    float: left;
+}
+
+.column-5{
+    width: 20%;
+    float: left;
+}
+
+.column-6{
+    width: 16.66%;
+    float: left;
+}
+
+.column-75{
+    width: 75%;
+    float: left;
+}
+
+.column-nav{
+    width: 25%;
+    float: left;
+}
+
+.column-nav a{
+    text-decoration: none;
+}
+
+.column-nav1{
+    width: 25%;
+    float: right;
+    padding-left: 1%;
+}
+
+.column-nav1 a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    height: 100vh;
+    background-image: url("../img/barcelona.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+#header h1 {
+    color: white;
+    margin: 0;
+    padding: 0 20%;
+    font-size: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+#img-1{
+    height: 72vh;
+    background-image: url("../img/sagradafamilia.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#img-2{
+    height: 50vh;
+    background-image: url("../img/pobleespanyol.webp");
+    background-size: cover;
+    background-position: center;
+}
+#img-3{
+    height: 50vh;
+    background-image: url("../img/barcelona-mercado-boqueria-4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-4{
+    height: 50vh;
+    background-image: url("../img/Camp-Nou-3.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .column-3{
+        width: 100%;
+    }
+
+    .column-4{
+        width: 50%;
+    }
+
+    .column-75,.column-nav{
+        width: 100%;
+    }
+}
